@@ -93,28 +93,36 @@ Dê um nome ao repositório e selecione o nível de visibilidade (privado/públi
 
 Repositório criado. Agora é necessário colocá-lo em seu computador. Para isso, execute a sequência de comandos no terminal ou Git Bash:
 
-    // Crie a pasta com o nome do repositório
+Crie a pasta com o nome do repositório
+
     mkdir 'nome_do_repo'
     
-    // Vá para a pasta crida
+Vá para a pasta crida
+
     cd 'nome_do_repo'
     
-    // Crie o repositório
+Crie o repositório
+
     git init
     
-    // Crie o primeiro arquivo
+Crie o primeiro arquivo
+
     touch README.md
     
-    // Adicione o arquivo criado no repositório
+Adicione o arquivo criado no repositório
+
     git add .
     
-    // Escreva as mudanças realizadas no repositório
+Escreva as mudanças realizadas no repositório
+
     git commit -m "Primeiro Commit"
     
-    // Salve o repositório para seu endereço na plataforma
+Salve o repositório para seu endereço na plataforma
+
     git remote add origin endereço_do_repositório
     
-    // Salve as alterações no repositório
+Salve as alterações no repositório
+
     git push
 
 Pronto. Foi criado um novo repositório.
