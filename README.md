@@ -1,7 +1,7 @@
 # Gittertaginson
 
-# Git - Guia completo da Ecomp  <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width="32" height="32">
-Material de consulta para todos os membros da Ecomp
+# Git - Guia completo  <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width="32" height="32">
+Material de consulta
 
 ### O que é Git?
 
@@ -28,7 +28,7 @@ Siga os passos para a instalação.
 
 Após a instalação, deve ser feita a autenticação do usuário e dar permissão para que os mesmos escrevam no repositório. Para isso, o Git usa duas formas: SSH e HTTP.
 
-> Para configurar sua conta em seus computadores pessoais, é interessante utilizar a chave SSH, pois não necessita de posteriores autenticações. Já em computadores públicos, como os da Ecomp, deve ser usado o HTTP por questões de segurança
+> Para configurar sua conta em seus computadores pessoais, é interessante utilizar a chave SSH, pois não necessita de posteriores autenticações. Já em computadores públicos, deve ser usado o HTTP por questões de segurança
 
 ### 2.1. SSH
 
@@ -55,7 +55,7 @@ Use o comando `ssh-add ~/.ssh/id_rsa` para proteger a chave gerada.
 
 #### Utilizando sua chave:
 
-Para utilizar sua chave em uma plataforma do Git (GitHub, GitLab, GitLab da Ecomp, etc.), faça login na mesma, acesse Configurações da conta > Chaves SSH/ SSH Keys > Adicionar chave.
+Para utilizar sua chave em uma plataforma do Git (GitHub, GitLab, GitLab da Empresa, etc.), faça login na mesma, acesse Configurações da conta > Chaves SSH/ SSH Keys > Adicionar chave.
 
 Se houver um campo Título, coloque uma identificação para a chave. 
 
@@ -85,7 +85,6 @@ Alternativamente, o comando `git config --global user.email seu@email.com` e `gi
 ## 3. Criar um repositório
 
 > Existem várias plataformas do Git para manter seus repositórios, como: GitLab, GitHub, Bitbucket, Azure Repos, etc.. Alguns são gratuitos, com serviços Premium, e outros são pagos. 
-> A Ecomp tem sua própria versão do GitLab, encontrado em gitlab.ecomp.co.
 
 Para criar um repositório Git, selecione a plataforma desejada, entre no site da mesma no navegador e selecione a opção Create Repository.
 
@@ -240,10 +239,5 @@ A sintaxe do que deve ser escrito no arquivo é a de expressões regulares:
     foo/ # Ignora o diretório chamado "foo".
     !*important* # NÃO ignora os arquivos que contém "important" no seu nome.
 
-
-
-
-
-
-
-
+## Referências
+Git - Guia Completo da Ecomp (https://github.com/lmarqs/git-course)
